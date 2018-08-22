@@ -1,0 +1,7 @@
+mamahao:
+  data:
+    redis:
+      database: 1
+
+app:
+  id: 5
