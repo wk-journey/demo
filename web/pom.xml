@@ -24,6 +24,12 @@
         </dependency>
 
         <!--<dependency>-->
+            <!--<groupId>com.example</groupId>-->
+            <!--<artifactId>datasource</artifactId>-->
+            <!--<version>${com.example.datasource.version}</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
             <!--<groupId>org.springframework.boot</groupId>-->
             <!--<artifactId>spring-boot</artifactId>-->
             <!--<version>1.5.7.RELEASE</version>-->
@@ -49,11 +55,11 @@
             <!--<optional>true</optional>-->
         <!--</dependency>-->
 
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>${snakeyaml.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.yaml</groupId>-->
+            <!--<artifactId>snakeyaml</artifactId>-->
+            <!--<version>${snakeyaml.version}</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>

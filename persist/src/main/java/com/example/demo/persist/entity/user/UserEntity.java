@@ -26,6 +26,18 @@ public class UserEntity {
 	 */
 	private String password;
 	/**
+	 * 微信openid
+	 */
+	private String weixinOpenid;
+	/**
+	 * 微信unionid（公众号相关）
+	 */
+	private String weixinUnionid;
+	/**
+	 * 微信昵称
+	 */
+	private String weixinNickame;
+	/**
 	 * 创建时间
 	 */
 	@Column(insertable = false, updatable = false)
@@ -61,6 +73,30 @@ public class UserEntity {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getWeixinOpenid() {
+		return weixinOpenid;
+	}
+
+	public void setWeixinOpenid(String weixinOpenid) {
+		this.weixinOpenid = weixinOpenid;
+	}
+
+	public String getWeixinUnionid() {
+		return weixinUnionid;
+	}
+
+	public void setWeixinUnionid(String weixinUnionid) {
+		this.weixinUnionid = weixinUnionid;
+	}
+
+	public String getWeixinNickame() {
+		return weixinNickame;
+	}
+
+	public void setWeixinNickame(String weixinNickame) {
+		this.weixinNickame = weixinNickame;
 	}
 
 	public Date getCreateTime() {

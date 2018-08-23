@@ -40,6 +40,12 @@
             <!--<artifactId>mapper</artifactId>-->
             <!--<version>3.3.6</version>-->
         <!--</dependency>-->
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>datasource</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

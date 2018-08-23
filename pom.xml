@@ -11,6 +11,7 @@
 		<module>service</module>
         <module>persist</module>
 		<module>vo</module>
+		<module>datasource</module>
 	</modules>
 	<packaging>pom</packaging>
 
@@ -21,12 +22,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.3.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 
 	<properties>
 		<com.example.service.version>0.0.1-SNAPSHOT</com.example.service.version>
 		<com.example.persist.version>0.0.1-SNAPSHOT</com.example.persist.version>
+		<com.example.datasource.version>0.0.1-SNAPSHOT</com.example.datasource.version>
 		<com.example.vo.version>0.0.1-SNAPSHOT</com.example.vo.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
