@@ -1,4 +1,4 @@
-package com.example.demo.persist.mapper;
+package com.example.demo.persist.mapper.user;
 
 /**
  * @author wangkai
