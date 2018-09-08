@@ -16,11 +16,11 @@ public class UserEntity {
 	 */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer uerId;
+	private Integer userId;
 	/**
 	 * 用户名
 	 */
-	private String uerName;
+	private String userName;
 	/**
 	 * 密码
 	 */
@@ -36,7 +36,7 @@ public class UserEntity {
 	/**
 	 * 微信昵称
 	 */
-	private String weixinNickame;
+	private String weixinNickname;
 	/**
 	 * 创建时间
 	 */
@@ -51,20 +51,20 @@ public class UserEntity {
 	public UserEntity() {
 	}
 
-	public Integer getUerId() {
-		return uerId;
+	public Integer getUserId() {
+		return userId;
 	}
 
-	public void setUerId(Integer uerId) {
-		this.uerId = uerId;
+	public void setUserId(Integer userId) {
+		this.userId = userId;
 	}
 
-	public String getUerName() {
-		return uerName;
+	public String getUserName() {
+		return userName;
 	}
 
-	public void setUerName(String uerName) {
-		this.uerName = uerName;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 	public String getPassword() {
@@ -91,12 +91,12 @@ public class UserEntity {
 		this.weixinUnionid = weixinUnionid;
 	}
 
-	public String getWeixinNickame() {
-		return weixinNickame;
+	public String getWeixinNickname() {
+		return weixinNickname;
 	}
 
-	public void setWeixinNickame(String weixinNickame) {
-		this.weixinNickame = weixinNickame;
+	public void setWeixinNickname(String weixinNickname) {
+		this.weixinNickname = weixinNickname;
 	}
 
 	public Date getCreateTime() {
