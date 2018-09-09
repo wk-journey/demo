@@ -27,9 +27,30 @@ demo:
       mappers: com.example.demo.mybatis.bean.IMapper
       config: mybatis-config.xml
 
-    mongodb:
-          default-database: mydb
+    redis:
+      main:
+        #password:
+        timeout: 50000
+        expire-seconds: 1800
+        pool-max-idle: 100
+        pool-max-total: 500
+        pool-max-wait-millis: 10000
+        pool-min-idle: 50
+        #单机配置
+        host: 127.0.0.1
+        port: 6379
+        #集群配置
+        #sentinel-master: redis01
+        #sentinel-nodes: 127.0.0.1:6379，127.0.0.2:6379
 
+    mongodb:
+      #username: root
+      #password: 123456
+      default-database: mydb
+      connection-per-host: 100
+      connection-timeout: 30000
+      max-wait-time: 30000
+      hosts: 10.168.158.250:27017,10.168.159.3:27017
 
 
 #my-props:
