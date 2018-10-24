@@ -1,11 +1,11 @@
-package com.example.demo.redis.config;
+package com.example.demo.utils.redis.config;
 
-import com.example.demo.redis.bean.AnotherRedisProperties;
-import com.example.demo.redis.bean.DefaultRedisProperties;
-import com.example.demo.redis.bean.IRedisProperties;
-import com.example.demo.redis.service.AnotherRedisServiceImpl;
-import com.example.demo.redis.service.RedisService;
-import com.example.demo.redis.service.RedisServiceImpl;
+import com.example.demo.utils.redis.bean.AnotherRedisProperties;
+import com.example.demo.utils.redis.bean.DefaultRedisProperties;
+import com.example.demo.utils.redis.bean.IRedisProperties;
+import com.example.demo.utils.redis.service.AnotherRedisServiceImpl;
+import com.example.demo.utils.redis.service.RedisService;
+import com.example.demo.utils.redis.service.RedisServiceImpl;
 import com.example.demo.utils.SeparatorParserUtil;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

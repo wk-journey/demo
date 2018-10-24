@@ -12,7 +12,8 @@
         <module>persist</module>
 		<module>vo</module>
 		<module>datasource</module>
-	</modules>
+        <module>util</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>demo</name>

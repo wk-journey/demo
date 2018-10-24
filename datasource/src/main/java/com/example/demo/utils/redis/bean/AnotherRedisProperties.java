@@ -1,4 +1,4 @@
-package com.example.demo.redis.bean;
+package com.example.demo.utils.redis.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

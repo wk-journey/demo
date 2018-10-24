@@ -1,4 +1,4 @@
-package com.example.demo.redis.service;
+package com.example.demo.utils.redis.service;
 
 import java.util.*;
 import java.util.concurrent.TimeUnit;

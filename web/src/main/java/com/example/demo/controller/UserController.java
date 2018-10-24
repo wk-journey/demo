@@ -19,11 +19,20 @@ public class UserController {
     private UserService userService;
 
     @RequestMapping(value = "/infoById", method = RequestMethod.GET)
-    public UserEntity getUserInfoById(Integer  userId) {
+    public UserEntity getUserInfoById(Integer userId) {
         UserEntity user = userService.getUserInfoById(userId);
         return user;
     }
 
+    @RequestMapping(value = "/update4Id", method = RequestMethod.POST)
+    public String getUserInfoById() {
+        UserEntity entity = new UserEntity();
+        entity.setUserId(2);
+        entity.setUserName("test02g");
+        entity.setPassword("123456");
+        userService.updateUserInfoAsy(entity);
+        return "ok!";
+    }
 
 //	static Map<Long, UserEntity> users = Collections.synchronizedMap(new HashMap<Long, UserEntity>());
 

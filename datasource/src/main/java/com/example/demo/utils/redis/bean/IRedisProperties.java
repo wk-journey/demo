@@ -1,4 +1,4 @@
-package com.example.demo.redis.bean;
+package com.example.demo.utils.redis.bean;
 
 /**
  * Created by wangkai on 2018/9/8.

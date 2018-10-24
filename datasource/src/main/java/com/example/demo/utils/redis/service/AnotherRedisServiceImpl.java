@@ -1,14 +1,14 @@
-package com.example.demo.redis.service;
+package com.example.demo.utils.redis.service;
 
 import org.springframework.data.redis.core.RedisTemplate;
 
 /**
  * Created by wangkai on 2018/9/9.
  */
-public class RedisServiceImpl extends AbstractRedisService {
+public class AnotherRedisServiceImpl extends AbstractRedisService {
     private RedisTemplate redisTemplate;
 
-    public RedisServiceImpl(RedisTemplate redisTemplate) {
+    public AnotherRedisServiceImpl(RedisTemplate redisTemplate) {
         this.redisTemplate = redisTemplate;
     }
 

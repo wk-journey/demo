@@ -14,4 +14,9 @@ public interface UserService {
      */
     UserEntity getUserInfoById(Integer userId);
 
+    /**
+     * 异步保存用户信息
+     * @param entity
+     */
+    void updateUserInfoAsy(UserEntity entity);
 }
